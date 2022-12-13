@@ -83,12 +83,12 @@
       <![CDATA[Logging out]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-13T19:33:21 IST" name="Default suite" finished-at="2022-12-13T19:34:10 IST" duration-ms="49224">
+  <suite started-at="2022-12-13T22:12:06 IST" name="Default suite" finished-at="2022-12-13T22:13:02 IST" duration-ms="56368">
     <groups>
     </groups>
-    <test started-at="2022-12-13T19:33:21 IST" name="Default test" finished-at="2022-12-13T19:34:10 IST" duration-ms="49224">
+    <test started-at="2022-12-13T22:12:06 IST" name="Default test" finished-at="2022-12-13T22:13:02 IST" duration-ms="56368">
       <class name="neoStoxtest.MytestNgOutput2UsingListerner">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T19:33:21 IST" name="launchBrowser" finished-at="2022-12-13T19:33:36 IST" duration-ms="15257" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T22:12:06 IST" name="launchBrowser" finished-at="2022-12-13T22:12:25 IST" duration-ms="18501" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Readingurlfrom property file]]>
@@ -98,7 +98,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="myLogin()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T19:33:36 IST" name="myLogin" finished-at="2022-12-13T19:34:05 IST" duration-ms="28767" status="PASS">
+        <test-method is-config="true" signature="myLogin()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T22:12:25 IST" name="myLogin" finished-at="2022-12-13T22:12:57 IST" duration-ms="32378" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Readingmobnumfrom property file]]>
@@ -150,7 +150,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- myLogin -->
-        <test-method signature="validateUsername()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T19:34:05 IST" name="validateUsername" finished-at="2022-12-13T19:34:09 IST" duration-ms="4210" status="PASS">
+        <test-method signature="validateUsername()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T22:12:57 IST" name="validateUsername" finished-at="2022-12-13T22:13:01 IST" duration-ms="4209" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[waiting for]]>
@@ -175,7 +175,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateUsername -->
-        <test-method is-config="true" signature="log()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T19:34:09 IST" name="log" finished-at="2022-12-13T19:34:10 IST" duration-ms="400" status="PASS">
+        <test-method is-config="true" signature="log()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T22:13:01 IST" name="log" finished-at="2022-12-13T22:13:02 IST" duration-ms="540" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[waiting for]]>
@@ -185,7 +185,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- log -->
-        <test-method is-config="true" signature="Browserclose()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T19:34:10 IST" name="Browserclose" finished-at="2022-12-13T19:34:10 IST" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="Browserclose()[pri:0, instance:neoStoxtest.MytestNgOutput2UsingListerner@17497425]" started-at="2022-12-13T22:13:02 IST" name="Browserclose" finished-at="2022-12-13T22:13:02 IST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browserclose -->

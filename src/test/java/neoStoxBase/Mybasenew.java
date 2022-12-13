@@ -19,6 +19,8 @@ public class Mybasenew
 		    driver.get(MyUtility.MyreadDataFromPropertyFile("url"));
 		    driver.manage().window().maximize();
 		    
+		    
+		    
 		    Reporter.log("launching the browser");
 		    Thread.sleep(2000);
 		
