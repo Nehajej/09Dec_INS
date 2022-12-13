@@ -18,6 +18,7 @@ import neoStoxPom.Mypom2;
 import neoStoxPom.Mypom3;
 import neoStoxPom.Mypom4;
 import neoStoxUtility.MyUtility;
+import neoStoxUtility.UtilityNew;
 
 
 @Listeners(neoStoxUtility.Listener.class)
@@ -45,13 +46,15 @@ public class MytestNgOutput2UsingListerner extends Mybasenew {
 	@BeforeMethod
 	public void myLogin() throws EncryptedDocumentException, InterruptedException, IOException
 	{
-		mylog.mob(driver, MyUtility.Myreadexcelsheet(3, 0));
+		
+		//UtilityNew.wait(driver, 1000);
+		mylog.mob(driver, UtilityNew.readDataFromPropertyFile("mobnum"));
 		mylog.signin(driver);
 		
 		Reporter.log("Enter mobile number",true );
 		Thread.sleep(1000);
 		
-		mylog2.pass(driver, MyUtility.Myreadexcelsheet(3, 1));Thread.sleep(2000);
+		mylog2.pass(driver, UtilityNew.readDataFromPropertyFile("passcode"));Thread.sleep(2000);
 		mylog2.sumbit1(driver);
 		
 		Thread.sleep(1000);
@@ -67,17 +70,17 @@ public class MytestNgOutput2UsingListerner extends Mybasenew {
   public void validateUsername() throws EncryptedDocumentException, IOException, InterruptedException 
 	{
 		Thread.sleep(4000);
-		Assert.assertEquals(mylog4.getActualusername(driver), MyUtility.Myreadexcelsheet(3, 2));
+		Assert.assertEquals(mylog4.getActualusername(driver), UtilityNew.readDataFromPropertyFile("username"));
 		Reporter.log("TC is passed",true );
    }
 	
-	@Test(priority = -1)
+	/*@Test(priority = -1)
 	public void accountbalance() throws EncryptedDocumentException, IOException, InterruptedException 
 	{
 		MyUtility.Mywait(driver, 5000);
 		Assert.assertNotNull(mylog4.acbalance(driver), "Tc failed actual & expexted not matched");
 		Reporter.log("AC is not null Tc is passed",true );
-   }
+   }*/
 	
 	@AfterMethod
 	public void log()
